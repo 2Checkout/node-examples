@@ -315,9 +315,9 @@ app.post('/order', function(request, response) {
 Lets break down this method a bit and explain what were doing here.
 
 First we setup our credentials and the environment by creating a new 'Twocheckout({})' instance. This function accepts an object as the argument containing the following attributes.
-    * privateKey: Your Payment API private key
-    * sellerId: 2Checkout account number
-    * sandbox: Set to true to use sandbox (optional)
+* privateKey: Your Payment API private key
+* sellerId: 2Checkout account number
+* sandbox: Set to true to use sandbox (optional)
 
 Next we create an object with our authorization attributes. In our example we are using hard coded strings for each required attribute except for the token which is passed in from the credit card form.
 
